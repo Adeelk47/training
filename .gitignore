@@ -1,0 +1,11 @@
+etc/.env
+etc/settings.local.json
+*.pyc
+dist
+etc/settings.json
+settings.json
+.coverage
+.flake8
+.scannerwork
+.scannerwork/*
+src/celerybeat-schedule

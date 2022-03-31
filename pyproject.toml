@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "training"
+version = "0.1.0"
+description = ""
+authors = ["Adeel Khan <adeel.khan@tkxel.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask-restx = "^0.5.1"
+Flask-Cors = "^3.0.10"
+Flask-Migrate = "^3.1.0"
+psycopg2-binary = "^2.9.3"
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
